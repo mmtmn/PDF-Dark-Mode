@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "PDF Dark Mode",
+  "version": "1.0",
+  "description": "A simple Firefox extension for PDF dark mode.",
+  "permissions": ["activeTab", "webNavigation"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
